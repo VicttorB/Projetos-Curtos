@@ -1,0 +1,51 @@
+body{
+    background:linear-gradient(green,white,blue)no-repeat ;
+    height: 115vh;
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    
+}
+
+.container img {
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+}
+
+.jogadores{
+    width: 700px;
+    height: 900px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 18px;
+}
+
+.jogadores button{
+
+    padding: 9px 65px;
+    background: rgb(38, 2, 245);
+    color: white;
+    border-radius:8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    margin: 5px;
+}
+
+.jogadores button:hover{
+    background: rgb(53, 167, 58);
+    padding: 12px 54px;
+}
+#botao{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
