@@ -1,0 +1,60 @@
+body{
+    padding:0;
+    margin:0;
+    background: url('/images/corpo.jpg');
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.central{
+    background: white;
+    width: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px cyan;
+}
+
+.central p{
+    color: black;
+    font-weight: bold; 
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.central input{
+    padding: 7px 10px;
+    border: 2px solid transparent;
+    outline: none;
+    background: rgb(172, 212, 212);
+    border-radius: 8px;
+    transition: 0.8s;
+    margin-top: 10px;
+}
+
+.central button{
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    background: pink;
+    color: black;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+
+    -webkit-appearance:none;
+}

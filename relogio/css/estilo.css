@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: relogio;
+    src: url('/fonts/clock.ttf');
+}
+
+body{
+    background:url('/css/dia.jpeg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ }
+
+
+.relogio{
+    width: 550px;
+    height: 200px;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.716);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.relogio div{
+    height: 170px;
+    width: 150px;
+    background: black;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.relogio div p{
+    font-size: 90px;
+    font-family: relogio;
+}
+
+.relogio h1{
+    font-size: 50px;
+}
+.relogio h2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.diaMesAno{
+    position: absolute;
+    top: 110px;
+    padding: 0 200px;
+}
+.darkMode{
+
+   background: url('/css/space.jpg'); 
+   background-size: cover;
+}
+.Semana{
+    width: 550px;
+    height: 100px;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.716);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 6px;
+    gap: 6px;   
+}
+.Semana div{
+    height: 200px;
+    width: 150px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.Semana div p{
+    font-size: 300px;
+    font-family: relogio;
+} 
+
+
+   
+
+
